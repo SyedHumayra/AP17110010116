@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:title="Share"
+    android:id="@+id/share"
+        android:icon="@mipmap/share"
+    app:showAsAction="always"    />
+    <item
+        android:title="Dail"
+        android:id="@+id/Dail"
+        android:icon="@mipmap/call"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="Setting"
+        android:id="@+id/setting" />
+    <item
+        android:title="Gallery"
+        android:id="@+id/Gallery" />
+</menu>
